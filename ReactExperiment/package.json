@@ -1,0 +1,58 @@
+{
+  "name": "LoginPage",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": ["./assets/fonts"]
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.0.2",
+    "react": "15.4.2",
+    "react-native": "0.42.3",
+    "react-native-button": "^1.8.2",
+    "react-native-drawer": "^2.3.0",
+    "react-native-fit-image": "^1.4.7",
+    "react-native-floating-label-text-input": "^0.1.4",
+    "react-native-image-progress": "^0.6.0",
+    "react-native-simple-modal": "^5.0.0",
+    "fetch-everywhere": "^1.0.5",
+    "prop-types": "^15.5.10",
+    "react-native-cardview": "^1.1.0",
+    "react-native-custom-snackbar": "^1.0.1",
+    "react-native-drawer-menu": "^0.2.4",
+    "react-native-easy-grid-view": "^0.1.1",
+    "react-native-image-slider": "^1.1.5",
+    "react-native-infoslider": "^1.0.1",
+    "react-native-linear-gradient": "^2.1.0",
+    "react-native-map": "0.0.1",
+    "react-native-maps": "^0.15.3",
+    "react-native-material-design": "^0.3.7",
+    "react-native-popup-dialog": "^0.9.32",
+    "react-native-shared-preferences": "0.0.8",
+    "react-native-svg-image": "^1.1.4",
+    "react-native-svg-uri": "^1.2.0",
+    "react-native-tooltip-menu": "^1.1.0",
+    "react-native-ui-lib": "^2.0.104",
+    "react-native-vector-icons": "^4.3.0",
+    "react-native-wheel-picker-android": "^1.0.3",
+    "react-native-xtabbar": "^0.2.1",
+    "react-navigation": "^1.0.0-beta.12",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
